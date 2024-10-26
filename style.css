@@ -1,0 +1,126 @@
+body{
+    font-family:"Montserrat", serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    padding: 0.5rem;
+}
+.sidebar{
+    margin-right: 0.5rem;
+    width: 300px;
+    border-radius: 1.3rem;
+    background-color: black;
+}
+
+.main-content{
+    flex: 1;
+    border-radius: 1.3rem;
+    overflow: auto;
+    background-color: #121212;
+}
+
+.music-player{ 
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.nav{
+    height: 100px;
+    border-radius: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #121212;
+    padding: 0.5rem 0.75rem;
+}
+
+
+.nav-options{
+    padding: 0.5rem 0.75rem;
+    opacity: 0.7;
+    line-height: 2.5rem ;
+}
+.nav-options:hover{
+    opacity: 1;
+}
+.nav-options a{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-options i{
+    font-size: 1.5rem;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1.3rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.lib-options img{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: 0 .7;
+    margin-right: 1rem;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 0.25rem 0 1.75rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #232323;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+.badge{
+    height: 2  rem;
+    border: none;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    width: fit-content;
+    background-color: white;
+}
+.box-2{
+    height: 10.5rem;
+}
